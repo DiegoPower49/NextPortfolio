@@ -71,34 +71,6 @@
       "title": "Proyectos",
       "proyects": [
         {
-          "nombre": "CHAT ONLINE",
-          "imagen": "https://i.ibb.co/HFVhJgC/Captura-de-pantalla-20-7-2024-7168-chatportfolio-up-railway-app.jpg",
-          "direccion": "https://chatportfolio.vercel.app",
-          "descripcion": "Chat en línea con implementación de websockets, inicio de sesión y salas de chat, método de seguridad JWT",
-          "tecnologias": [
-            "MongoDB",
-            "Express",
-            "React",
-            "NodeJS",
-            "Websocket",
-            "JWT"
-          ]
-        },
-        {
-          "nombre": "STUFFED TOY STORE",
-          "imagen": "https://i.ibb.co/28k3ndT/Opera-Captura-de-pantalla-2024-08-08-014230-localhost.png",
-          "direccion": "https://teddy-store.vercel.app",
-          "descripcion": "Tienda de peluches con inicio de sesion y carrito de compras.",
-          "tecnologias": [
-            "MongoDB",
-            "Express",
-            "React",
-            "NodeJS",
-            "React",
-            "JWT"
-          ]
-        },
-        {
           "nombre": "CRIPTO LIVES RATES",
           "imagen": "https://i.ibb.co/9NK54C6/image.png",
           "direccion": "https://criptoweb-portfolio.vercel.app",
@@ -131,6 +103,34 @@
             "Tailwind",
             "Socket.io",
             "Simple-peer"
+          ]
+        },
+        {
+          "nombre": "CHAT ONLINE",
+          "imagen": "https://i.ibb.co/HFVhJgC/Captura-de-pantalla-20-7-2024-7168-chatportfolio-up-railway-app.jpg",
+          "direccion": "https://chatportfolio.vercel.app",
+          "descripcion": "Chat en línea con implementación de websockets, inicio de sesión y salas de chat, método de seguridad JWT",
+          "tecnologias": [
+            "MongoDB",
+            "Express",
+            "React",
+            "NodeJS",
+            "Websocket",
+            "JWT"
+          ]
+        },
+        {
+          "nombre": "STUFFED TOY STORE",
+          "imagen": "https://i.ibb.co/28k3ndT/Opera-Captura-de-pantalla-2024-08-08-014230-localhost.png",
+          "direccion": "https://teddy-store.vercel.app",
+          "descripcion": "Tienda de peluches con inicio de sesion y carrito de compras.",
+          "tecnologias": [
+            "MongoDB",
+            "Express",
+            "React",
+            "NodeJS",
+            "React",
+            "JWT"
           ]
         }
       ]
@@ -202,6 +202,16 @@
           "url": "/nestjs.svg",
           "alt": "NestJs",
           "style": "Icono11"
+        },
+        {
+          "url": "/java.svg",
+          "alt": "Java",
+          "style": "Icono12"
+        },
+        {
+          "url": "/spring.svg",
+          "alt": "Spring",
+          "style": "Icono13"
         }
       ]
     },
@@ -211,22 +221,22 @@
         {
           "url": "/firebase.svg",
           "alt": "Firebase",
-          "style": "Icono13"
+          "style": "Icono14"
         },
         {
           "url": "/postgresql.svg",
           "alt": "PostgreSQL",
-          "style": "Icono14"
+          "style": "Icono15"
         },
         {
           "url": "/mysql.svg",
           "alt": "MySQL",
-          "style": "Icono15"
+          "style": "Icono16"
         },
         {
           "url": "/mongodb.svg",
           "alt": "MongoDB",
-          "style": "Icono16"
+          "style": "Icono17"
         }
       ]
     },
@@ -236,13 +246,28 @@
         {
           "url": "/bootstrap.svg",
           "alt": "Bootstrap",
-          "style": "Icono17"
+          "style": "Icono18"
         },
 
         {
           "url": "/tailwind.svg",
           "alt": "Tailwind",
-          "style": "Icono18"
+          "style": "Icono19"
+        },
+        {
+          "url": "/github.svg",
+          "alt": "Github",
+          "style": "Icono20"
+        },
+        {
+          "url": "/docker.svg",
+          "alt": "Docker",
+          "style": "Icono21"
+        },
+        {
+          "url": "/postman.svg",
+          "alt": "Postman",
+          "style": "Icono21"
         }
       ]
     }
