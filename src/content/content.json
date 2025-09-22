@@ -1,0 +1,256 @@
+{
+  "metadata": {
+    "title": "Diego Portfolio",
+    "description": "My portfolio created with Next.js and Tailwind CSS",
+    "authors": [
+      {
+        "name": "Diego Torres",
+        "url": "https://diegotorres-portfoliodev.vercel.app"
+      }
+    ],
+    "openGraph": {
+      "title": "My Portfolio",
+      "description": "Portfolio created by Diego Torres",
+      "url": "https://diegotorres-portfoliodev.vercel.app",
+      "siteName": "Diego Torres Portfolio",
+      "images": [
+        {
+          "url": "/icon.ico",
+          "width": 1200,
+          "height": 630,
+          "alt": "Portfolio logo"
+        }
+      ],
+      "locale": "en_US",
+      "type": "website"
+    }
+  },
+  "Header": {
+    "me": "Yo",
+    "about": "Quien soy",
+    "proyects": "Proyectos",
+    "technologies": "Tecnologias",
+    "contact": "Contacto"
+  },
+  "Resume": {
+    "first": {
+      "name": "Diego Torres",
+      "work": "Programador FullStack"
+    },
+    "second": {
+      "seccion": "Edad",
+      "detail": "31 años"
+    },
+    "third": {
+      "seccion": "Nacionalidad",
+      "detail": "Peruano"
+    },
+    "fourth": {
+      "seccion": "Telefono",
+      "detail": "+51 986377441"
+    },
+    "links": {
+      "github": {
+        "title": "Github",
+        "detail": "https://github.com/DiegoPower48"
+      },
+      "linkedin": {
+        "title": "Linkedin",
+        "detail": "https://www.linkedin.com/in/diego-arturo-torres-pacherres-440423242"
+      }
+    }
+  },
+  "Detail": {
+    "title": "Quien soy",
+    "about": "Soy un desarrollador web y móvil enfocado en crear aplicaciones de alto rendimiento que brinden las mejores experiencias de usuario. Mi experiencia se basa en el uso de las bibliotecas React y React Native para desarrollar aplicaciones responsivas, de carga rápida e intuitivas, adaptadas tanto para la web como para plataformas móviles.",
+    "about2": "Al aprovechar un conjunto diverso de herramientas y frameworks modernos, optimizo cada proyecto para reducir el tiempo de desarrollo sin comprometer la calidad."
+  },
+
+  "Proyects": {
+    "web": {
+      "title": "Proyectos",
+      "proyects": [
+        {
+          "nombre": "CHAT ONLINE",
+          "imagen": "https://i.ibb.co/HFVhJgC/Captura-de-pantalla-20-7-2024-7168-chatportfolio-up-railway-app.jpg",
+          "direccion": "https://chatportfolio.vercel.app",
+          "descripcion": "Chat en línea con implementación de websockets, inicio de sesión y salas de chat, método de seguridad JWT",
+          "tecnologias": [
+            "MongoDB",
+            "Express",
+            "React",
+            "NodeJS",
+            "Websocket",
+            "JWT"
+          ]
+        },
+        {
+          "nombre": "STUFFED TOY STORE",
+          "imagen": "https://i.ibb.co/28k3ndT/Opera-Captura-de-pantalla-2024-08-08-014230-localhost.png",
+          "direccion": "https://teddy-store.vercel.app",
+          "descripcion": "Tienda de peluches con inicio de sesion y carrito de compras.",
+          "tecnologias": [
+            "MongoDB",
+            "Express",
+            "React",
+            "NodeJS",
+            "React",
+            "JWT"
+          ]
+        },
+        {
+          "nombre": "CRIPTO LIVES RATES",
+          "imagen": "https://i.ibb.co/9NK54C6/image.png",
+          "direccion": "https://criptoweb-portfolio.vercel.app",
+          "descripcion": "Proyecto enfocado en Web Scraping reuniendo datos de los valores actuales de criptomonedas",
+          "tecnologias": [
+            "MongoDB",
+            "Express",
+            "React",
+            "NodeJS",
+            "Puppeteer",
+            "Tailwind"
+          ]
+        },
+        {
+          "nombre": "FAST WEB TOOLS",
+          "imagen": "https://i.ibb.co/R6k7Tz3/webtools.png",
+          "direccion": "https://fasttools.vercel.app",
+          "descripcion": "Aplicación web con varias herramientas creadas utilizando funciones nativas del navegador",
+          "tecnologias": ["Express", "NextJs", "NodeJS", "Tailwind"]
+        },
+        {
+          "nombre": "SCREEN SHARER",
+          "imagen": "https://i.ibb.co/2grLcKW/screensharer.png",
+          "direccion": "https://dev-screensharer.vercel.app",
+          "descripcion": "Aplicación web para compartir tu pantalla en tiempo real con otra persona utilizando comunicación peer-to-peer y websockets",
+          "tecnologias": [
+            "Express",
+            "NextJs",
+            "NodeJS",
+            "Tailwind",
+            "Socket.io",
+            "Simple-peer"
+          ]
+        }
+      ]
+    }
+  },
+  "Technologies": {
+    "title": "Tecnologias",
+    "frontend": {
+      "title": "Frontent",
+      "technologies": [
+        {
+          "url": "/html.svg",
+          "alt": "Html",
+          "style": "Icono1"
+        },
+        {
+          "url": "/css.svg",
+          "alt": "Css",
+          "style": "Icono2"
+        },
+        {
+          "url": "/javascript.svg",
+          "alt": "Javascript",
+          "style": "Icono3"
+        },
+        {
+          "url": "/react.svg",
+          "alt": "React",
+          "style": "Icono4"
+        },
+        {
+          "url": "/nextjs.svg",
+          "alt": "Nextjs",
+          "style": "Icono5"
+        },
+
+        {
+          "url": "/typescript.svg",
+          "alt": "Typescript",
+          "style": "Icono6"
+        },
+        {
+          "url": "/react.svg",
+          "alt": "React Native",
+          "style": "Icono7"
+        }
+      ]
+    },
+    "backend": {
+      "title": "Backend",
+      "technologies": [
+        {
+          "url": "/python.svg",
+          "alt": "Python",
+          "style": "Icono8"
+        },
+        {
+          "url": "/php.svg",
+          "alt": "PHP",
+          "style": "Icono9"
+        },
+
+        {
+          "url": "/laravel.svg",
+          "alt": "Laravel",
+          "style": "Icono10"
+        },
+        {
+          "url": "/nestjs.svg",
+          "alt": "NestJs",
+          "style": "Icono11"
+        }
+      ]
+    },
+    "database": {
+      "title": "Base de datos",
+      "technologies": [
+        {
+          "url": "/firebase.svg",
+          "alt": "Firebase",
+          "style": "Icono13"
+        },
+        {
+          "url": "/postgresql.svg",
+          "alt": "PostgreSQL",
+          "style": "Icono14"
+        },
+        {
+          "url": "/mysql.svg",
+          "alt": "MySQL",
+          "style": "Icono15"
+        },
+        {
+          "url": "/mongodb.svg",
+          "alt": "MongoDB",
+          "style": "Icono16"
+        }
+      ]
+    },
+    "tools": {
+      "title": "Herramientas",
+      "technologies": [
+        {
+          "url": "/bootstrap.svg",
+          "alt": "Bootstrap",
+          "style": "Icono17"
+        },
+
+        {
+          "url": "/tailwind.svg",
+          "alt": "Tailwind",
+          "style": "Icono18"
+        }
+      ]
+    }
+  },
+  "Comments": {
+    "title": "Conversemos",
+    "name": "Nombre",
+    "email": "Correo",
+    "text": "Escribeme un mensaje"
+  }
+}
