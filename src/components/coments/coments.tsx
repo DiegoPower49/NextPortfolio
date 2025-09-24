@@ -3,7 +3,7 @@
 import axios from "axios";
 import { useForm } from "react-hook-form";
 import { Toaster, toast } from "react-hot-toast";
-// import { motion } from "framer-motion";
+import Button from "../ui/button";
 
 interface Props {
   data: {
@@ -16,20 +16,26 @@ interface Props {
 
 function Comentarios(props: Props) {
   const { title, name, email, text } = props.data;
-  const { register, handleSubmit, reset,watch } = useForm();
+  const { register, handleSubmit, reset, watch } = useForm();
 
   const informacionFormulario = watch();
 
   const Datos = () => {
     toast
-      .promise(axios.post(`${process.env.NEXT_PUBLIC_API_URL}/portfolio`,informacionFormulario), {
-        loading: "⏳⏳  ENVIANDO COMENTARIO......",
-        success: "GRACIAS POR EL COMENTARIO!!!!🚀",
-        error: <b>NO SE PUDO GUARDAR</b>,
-      })
+      .promise(
+        axios.post(
+          `${process.env.NEXT_PUBLIC_API_URL}/portfolio`,
+          informacionFormulario
+        ),
+        {
+          loading: "⏳⏳  ENVIANDO COMENTARIO......",
+          success: "GRACIAS POR EL COMENTARIO!!!!🚀",
+          error: <b>NO SE PUDO GUARDAR</b>,
+        }
+      )
       .then(() => {
         reset();
-        console.log(informacionFormulario);  
+        console.log(informacionFormulario);
       })
       .catch((error) => {
         console.log(error);
@@ -84,13 +90,8 @@ function Comentarios(props: Props) {
           {text}
         </div>
       </div>
+      <Button text={"ENVIAR CORREO"} accepted={"ENVIADO"} />
 
-      <button
-        type="submit"
-        className="h-12 w-full grid items-center font-bold text-xl justify-center bg-Theme hover:bg-Hover rounded-xl"
-      >
-        Enviar
-      </button>
       <div className="w-full overflow-hidden relative"></div>
       <Toaster />
     </form>

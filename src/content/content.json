@@ -72,66 +72,31 @@
       "proyects": [
         {
           "nombre": "CRIPTO LIVES RATES",
-          "imagen": "https://i.ibb.co/9NK54C6/image.png",
+          "imagen": "https://res.cloudinary.com/dnijsodjv/image/upload/v1758734687/criptoweb_iyltd8.png",
           "direccion": "https://criptoweb-portfolio.vercel.app",
           "descripcion": "Proyecto enfocado en Web Scraping reuniendo datos de los valores actuales de criptomonedas",
-          "tecnologias": [
-            "MongoDB",
-            "Express",
-            "React",
-            "NodeJS",
-            "Puppeteer",
-            "Tailwind"
-          ]
+          "tecnologias": ["NestJS", "React", "Playwright", "Tailwind"]
         },
         {
           "nombre": "FAST WEB TOOLS",
-          "imagen": "https://i.ibb.co/R6k7Tz3/webtools.png",
+          "imagen": "https://res.cloudinary.com/dnijsodjv/image/upload/v1758734687/fastweb_oezf7j.png",
           "direccion": "https://fasttools.vercel.app",
           "descripcion": "Aplicación web con varias herramientas creadas utilizando funciones nativas del navegador",
-          "tecnologias": ["Express", "NextJs", "NodeJS", "Tailwind"]
+          "tecnologias": ["NestJs", "NextJs", "Tailwind"]
         },
         {
           "nombre": "SCREEN SHARER",
-          "imagen": "https://i.ibb.co/2grLcKW/screensharer.png",
+          "imagen": "https://res.cloudinary.com/dnijsodjv/image/upload/v1758734687/screensharer_j1zidw.png",
           "direccion": "https://dev-screensharer.vercel.app",
           "descripcion": "Aplicación web para compartir tu pantalla en tiempo real con otra persona utilizando comunicación peer-to-peer y websockets",
-          "tecnologias": [
-            "Express",
-            "NextJs",
-            "NodeJS",
-            "Tailwind",
-            "Socket.io",
-            "Simple-peer"
-          ]
+          "tecnologias": ["NestJS", "NextJs", "Tailwind", "Socketio"]
         },
         {
-          "nombre": "CHAT ONLINE",
-          "imagen": "https://i.ibb.co/HFVhJgC/Captura-de-pantalla-20-7-2024-7168-chatportfolio-up-railway-app.jpg",
-          "direccion": "https://chatportfolio.vercel.app",
-          "descripcion": "Chat en línea con implementación de websockets, inicio de sesión y salas de chat, método de seguridad JWT",
-          "tecnologias": [
-            "MongoDB",
-            "Express",
-            "React",
-            "NodeJS",
-            "Websocket",
-            "JWT"
-          ]
-        },
-        {
-          "nombre": "STUFFED TOY STORE",
-          "imagen": "https://i.ibb.co/28k3ndT/Opera-Captura-de-pantalla-2024-08-08-014230-localhost.png",
-          "direccion": "https://teddy-store.vercel.app",
-          "descripcion": "Tienda de peluches con inicio de sesion y carrito de compras.",
-          "tecnologias": [
-            "MongoDB",
-            "Express",
-            "React",
-            "NodeJS",
-            "React",
-            "JWT"
-          ]
+          "nombre": "Notes App",
+          "imagen": "https://res.cloudinary.com/dnijsodjv/image/upload/v1758734687/notesapp_xqnwfx.png",
+          "direccion": "https://localdevnotes.vercel.app",
+          "descripcion": "Aplicación de notas de almacenamiento local utilizando Zustand para manejo de estado global.",
+          "tecnologias": ["Zustand", "React", "NextJs", "Tailwind"]
         }
       ]
     }
